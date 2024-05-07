@@ -1,26 +1,29 @@
-
 # ChatBoxWebSocket
 
-ChatBoxWebSocket é um aplicativo simples de chat usando WebSocket e Spring Boot.
+![Java](https://img.shields.io/badge/Java-11-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-green)
+![WebSocket](https://img.shields.io/badge/WebSocket-2.5.4-yellow)
+
+Este é um projeto de exemplo de um chat simples usando WebSocket com Spring Boot.
+
+## Funcionalidades
+
+- Chat em tempo real usando WebSocket
+- Envio de mensagens entre clientes conectados
+- Interface web básica para interação
 
 ## Tecnologias Utilizadas
 
 - Java 11
 - Spring Boot 2.5.4
-- WebSocket
+- WebSocket 2.5.4
 
-## Funcionalidades
+## Como Executar
 
-- Chat em tempo real
-- Envio e recebimento de mensagens instantâneas
-
-## Como executar
-
-1. Certifique-se de ter o Java 11 e o Maven instalados.
-2. Clone este repositório: `git clone https://github.com/acbueno/chatboxwebsocket.git`
-3. Navegue até o diretório do projeto: `cd chatboxwebsocket`
-4. Execute o aplicativo usando Maven: `mvn spring-boot:run`
-5. Abra seu navegador e acesse `http://localhost:8080` para iniciar o chat.
+1. Clone este repositório: `git clone https://github.com/acbueno/chatboxwebscoket.git`
+2. Navegue até o diretório do projeto: `cd chatboxwebscoket`
+3. Execute o aplicativo Spring Boot: `./mvnw spring-boot:run`
+4. Acesse `http://localhost:8080` em vários navegadores para testar o chat em tempo real.
 
 ## Contribuição
 
@@ -29,6 +32,3 @@ Sinta-se à vontade para contribuir com novas funcionalidades, correções de bu
 ## Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-```
-
-Este é um exemplo simples. Você pode expandir o README.md conforme necessário para incluir mais informações sobre o projeto, sua estrutura, como contribuir, entre outros.
